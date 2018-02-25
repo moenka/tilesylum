@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>tilesylum alpha</title>
+    <meta name='description' content='Dynamic dashboard to monitor conditions.'>
+    <meta name='author' content='moenka'>
+    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='node_modules/isotope/dist/isotope.css'>
+</head>
+<body>
+    <h1>herdmap example</h1>
+    <p>Updating herdmap. Enter values into the input fields to see how the herdmap reacts. Random data is generated on every change so the herdmap has enough change to be visible. The 'update' button can be pressed to activate the update process manually.</p>
+    <div class='options'>
+      <label for='countInput'>Number of tiles:</label>
+      <input id='countInput' type='text' onkeyup='update()' value='20' />
+      <label for='countRadius'>Tile radius:</label>
+      <input id='countRadius' type='text' onkeyup='update()' value='4' />
+      <label for='countMargin'>Tile margin:</label>
+      <input id='countMargin' type='text' onkeyup='update()' value='2' />
+      <label for'sortStatus'>Sort on/off</label>
+      <input id='sortStatus' type='checkbox' onchange='update()' />
+      <input class='button' type='button' onclick='update()' value='update' />
+    </div>
+    <div class='herdmap'></div>
+    <script type='text/javascript' src='node_modules/d3/build/d3.js'></script>
+    <script type='text/javascript' src='lib/tilesylum.js'></script>
+</body>
+</html>

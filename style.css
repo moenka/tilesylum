@@ -1,0 +1,52 @@
+
+body {
+  background: #2d2d2d;
+  height: 100%;
+  line-height: 0;
+	margin: 0;
+  padding: 0;
+}
+
+
+input {
+  background: #444;
+  border: 0;
+  color: #00ce7e;
+  font-weight: 400;
+  padding: 2pt;
+}
+
+input.button {
+  border-radius: 4px;
+  margin: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #00ce7e;
+  display: block;
+  font-family: sans-serif;
+  line-height: 16pt;
+  padding: 6px;
+}
+
+label {
+  color: #00ce7e;
+  font-family: sans-serif;
+  font-size: 10pt;
+  margin: 5px;
+}
+
+.herdmap   {
+  border: 0;
+  margin: 5px;
+  position: absolute;
+  top: 200px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.options {
+  margin: 10px;
+  width: 100%;
+}

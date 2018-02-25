@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo -e "Deactivating environment for ${PROJECT_DIR} ..."
+export PATH=$ENV_OLD_PATH
+export PS1=$ENV_OLD_PS1
+unset ENV_OLD_PATH
+unset ENV_OLD_PS1
+unset ENV_PATH
+unset PROJECT_PATH
+unset PROJECT_DIR
+unalias deactivate
+
