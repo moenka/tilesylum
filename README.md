@@ -13,7 +13,7 @@ You can visit [demo.10forge.org/tilesylum/](http://demo.10forge.org/tilesylum/) 
 ```
 git clone git@github.com:moenka/tilesylum.git
 cd tilesylum
-npm install --production
+npm install
 source .env/activate
 live-server
 ```
