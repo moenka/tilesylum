@@ -4,10 +4,16 @@ tilesylum
 Demo
 ----
 
+### Online
+
+You can visit [demo.10forge.org/tilesyslum](http://demo.10forge.org/tilesyslum) to see an online hosted demo.
+
+### Selfhosted
+
 ```
 git clone git@github.com:moenka/tilesylum.git
 cd tilesylum
-npm install
+npm install --production
 source .env/activate
 live-server
 ```
