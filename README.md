@@ -6,7 +6,7 @@ Demo
 
 ### Online
 
-You can visit [demo.10forge.org/tilesyslum](http://demo.10forge.org/tilesyslum) to see an online hosted demo.
+You can visit [demo.10forge.org/tilesylum/](http://demo.10forge.org/tilesylum/) to see an online hosted demo.
 
 ### Selfhosted
 
